@@ -140,7 +140,7 @@ PassengerId,Survived,Pclass,Sex,Age,SibSp,Parch,Ticket,Fare,Cabin,Embarked
 139,0,3,male,16,0,0,7534,9.2167,,S
 140,0,1,male,24,0,0,PC 17593,79.2,B86,C
 141,0,3,female,,0,2,2678,15.2458,,C
-142,1,3,female,22,0,0,347081,7.75,,S
+142,1,3,female,22,0,0,347081,7.75,D23,S
 143,1,3,female,24,1,0,STON/O2. 3101279,15.85,,S
 144,0,3,male,19,0,0,365222,6.75,,Q
 145,0,2,male,18,0,0,231945,11.5,,S
