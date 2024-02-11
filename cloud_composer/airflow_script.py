@@ -12,7 +12,7 @@ default_args = {
     'retries': 1,
     'retry_delay': timedelta(seconds=50),
 	'dataflow_default_options': {
-        'project': 'zeta-matrix-377816',
+        'project': 'xxxxxxxxxx',
         'region': 'us-central1',
 		'runner': 'DataflowRunner'
     }
@@ -34,8 +34,8 @@ dag=dag
 
 dataflow_task = DataFlowPythonOperator(
     task_id='pythontaskdataflow',
-    py_file='gs://us-east4-composer001-demo-90abd3e4-bucket/dataflow_script_titanic.py',
-    options={'input' : 'gs://us-east4-composer001-demo-90abd3e4-bucket/titanic_dataset.csv'},
+    py_file='gs://sette-dataproc-project-composer-demo-bucket/dataflow_script_titanic.py',
+    options={'input' : 'gs://sette-dataproc-project-composer-demo-bucket/titanic_dataset.csv'},
 	dag=dag
 )
 
