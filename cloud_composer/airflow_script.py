@@ -12,7 +12,7 @@ default_args = {
     'retries': 1,
     'retry_delay': timedelta(seconds=50),
 	'dataflow_default_options': {
-        'project': 'xxxxxxxxxx',
+        'project': 'sette-test-401507',
         'region': 'us-central1',
 		'runner': 'DataflowRunner'
     }
