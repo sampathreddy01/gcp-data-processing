@@ -16,7 +16,7 @@ To use this pipeline:
 
 1. Set up a Google Cloud Platform (GCP) project and create a BigQuery dataset to store the processed data.
 
-2. Update the `delivered_table_spec` variable in the `beam_script_titanic.py` script with the appropriate BigQuery table specification.
+2. Update the `delivered_table_spec` variable in the `dataflow_script_titanic.py` script with the appropriate BigQuery table specification.
 
 3. Update the `options` dictionary in the `airflow-script.py` script with your GCP project ID and region.
 
