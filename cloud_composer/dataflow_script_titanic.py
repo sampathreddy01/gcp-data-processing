@@ -5,7 +5,7 @@ from google.cloud import bigquery
 from apache_beam.runners.runner import PipelineState
 
 #project-id:dataset_id.table_id
-delivered_table_spec = 'zeta-matrix-377816.myfirst_dataset_001.survived_data'
+delivered_table_spec = 'sette-test-401507.myfirst_dataset_001.survived_data'
 
 parser = argparse.ArgumentParser()
 
