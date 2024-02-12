@@ -34,8 +34,8 @@ dag=dag
 
 dataflow_task = DataFlowPythonOperator(
     task_id='pythontaskdataflow',
-    py_file='gs://sette-dataproc-project-composer-demo-bucket/dataflow_script_titanic.py',
-    options={'input' : 'gs://sette-dataproc-project-composer-demo-bucket/titanic_dataset.csv'},
+    py_file='gs://settedataprocprojectcomposerdemobucket/dataflow_script_titanic.py',
+    options={'input' : 'gs://settedataprocprojectcomposerdemobucket/titanic_dataset.csv'},
 	dag=dag
 )
 
